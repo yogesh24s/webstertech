@@ -77,11 +77,17 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content"> Web Design <br /> </div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content"> Web Development <br /> </div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content"> Mobile App <br /> </div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image04.jpg', title : '<div class="slide-content"> Digital Marketing <br /> </div>', thumb : '', url : ''}
+											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content"> </div>', thumb : '', url : ''},
+											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content"> </div>', thumb : '', url : ''},
+											{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content">  </div>', thumb : '', url : ''},
+											{image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">  </div>', thumb : '', url : ''}
 									],
+
+									// {image : 'img/slider-images/image01.jpg', title : '<div class="slide-content"> Web Design <br /> </div>', thumb : '', url : ''},
+									// {image : 'img/slider-images/image02.jpg', title : '<div class="slide-content"> Web Development <br /> </div>', thumb : '', url : ''},
+									// {image : 'img/slider-images/image03.jpg', title : '<div class="slide-content"> Mobile App <br /> </div>', thumb : '', url : ''},
+									// {image : 'img/slider-images/image04.jpg', title : '<div class="slide-content"> Digital Marketing <br /> </div>', thumb : '', url : ''}
+
 
 		// Theme Options
 		progress_bar			:	0,			// Timer for each slide
