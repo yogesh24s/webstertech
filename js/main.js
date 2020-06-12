@@ -54,7 +54,7 @@ BRUSHED.slider = function(){
 		start_slide             :   1,			// Start slide (0 is random)
 		stop_loop				:	0,			// Pauses slideshow on last slide
 		random					: 	0,			// Randomize slide order (Ignores start slide)
-		slide_interval          :   5000,		// Length between transitions
+		slide_interval          :   10000,		// Length between transitions
 		transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
 		transition_speed		:	500,		// Speed of transition
 		new_window				:	1,			// Image links open in new window/tab
@@ -71,23 +71,17 @@ BRUSHED.slider = function(){
 		fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
 		fit_portrait         	:   1,			// Portrait images will not exceed browser height
 		fit_landscape			:   0,			// Landscape images will not exceed browser width
-
+	
 		// Components
 		slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content"> </div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content"> </div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content">  </div>', thumb : '', url : ''},
-											{image : 'img/slider-images/image04.jpg', title : '<div class="slide-content">  </div>', thumb : '', url : ''}
+											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content"> Why Need a Website <br /> </div> ', thumb : '', url : ''},
+											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content"> Why Need it now <br /> </div>', thumb : '', url : ''},
+											{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content"> Why choose Us <br /> </div>', thumb : '', url : ''},
+											{image : 'img/slider-images/image04.png', title : '<div class="slide-content">  <br /> </div>', thumb : '', url : ''}
 									],
-
-									// {image : 'img/slider-images/image01.jpg', title : '<div class="slide-content"> Web Design <br /> </div>', thumb : '', url : ''},
-									// {image : 'img/slider-images/image02.jpg', title : '<div class="slide-content"> Web Development <br /> </div>', thumb : '', url : ''},
-									// {image : 'img/slider-images/image03.jpg', title : '<div class="slide-content"> Mobile App <br /> </div>', thumb : '', url : ''},
-									// {image : 'img/slider-images/image04.jpg', title : '<div class="slide-content"> Digital Marketing <br /> </div>', thumb : '', url : ''}
-
 
 		// Theme Options
 		progress_bar			:	0,			// Timer for each slide
@@ -371,7 +365,7 @@ $(document).ready(function(){
 		showPercentage: true,
 		autoClose: true,
 		splashFunction: function() {
-			$('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
+			$('#circle').delay(0).animate({'opacity' : 1}, 500, 'linear');
 		}
 	});
 

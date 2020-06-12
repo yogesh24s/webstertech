@@ -190,10 +190,17 @@ h4,
 h5,
 h6{
 	margin:0 0 20px 0;
-	color:#FFFFFF;
+	color:blue;
 	font-weight:300;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:1.5em;
+	text-align : center;
+}
+.temp {
+	background-color:black;
+}
+.caption {
+	color:red;
 }
 
 h1{
@@ -472,6 +479,8 @@ header .sticky-nav {
 	height: 60px;
 	background: #006075;
 	z-index: 1001;
+	opacity : 100%;
+	
 
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -649,8 +658,7 @@ Section Page
 }
 
 .title-h2 {
-	color: #006075;
-	margin-bottom: 0px;
+	color: #006075;margin-bottom: 0px;
 	line-height: 34px;
 }
 .title-h3 {
@@ -2607,56 +2615,62 @@ Icons Example
 		width:20%;
 		height:200px
 	}
+	
 
 	.bg-color-1 {
-		background: #f3f300;
+		background: rgba(255,192,0,.66) ;
 		text-align: center;
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 1px 2px 2px #ecec02;
+		box-shadow: 0px 0px 2px 2px #2F528F;
+		
+		
 	}
 	.bg-color-2 {
-		background: #1dc0ff;
+		background: rgba(35,19,245,0.66);
 		text-align: center;
 		/* border: 1px solid #32bef5; */
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 1px 2px 2px #15d6ea;
+		box-shadow: 0px 0px 2px 2px #2F528F;
 	}
 	.bg-color-3 {
-		background: #ffa621;
+		background: rgba(0,176,80,.72);
 		text-align: center;
 		/* border: 1px solid #fbb519; */
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 1px 2px 2px #ffa621;
+		box-shadow: 0px 0px 2px 2px #2F528F;
 
 	}
 	.bg-color-4 {
-		background: #18ec14;
+		background: rgba(224,16,31,.66);
 		text-align: center;
 		/* border: 1px solid #26ff55; */
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 1px 2px 2px #18ec14;
+		box-shadow: 0px 0px 2px 2px #2F528F;
+		color: yellow;
 
 	}
 	.bg-color-5 {
-		background: #5f43f7;
+		background: rgba(0,32,96,.72);
 		text-align: center;
 		/* border: 1px solid #4f2ffd; */
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 1px 2px 2px #5f43f7;
+		box-shadow: 0px 0px 2px 2px #2F528F;
+		color: rgb(255,255,0);
+		
 
 	}
 	.page-alt {
-		background: #f9f9f9;
+		background: #ffffff;
 	}
 	.mt-60 {
 		margin-top:60px !important;
