@@ -304,8 +304,8 @@ Home Slider
 #home-slider .slider-text {
 	position: absolute;
 	left: 85%;
-	top: 30%;
-	margin: -135px 0 0 -585px;
+	top: 0%;
+	margin: 65px 0 0 -594px;
 	width: 1170px;
 	height: auto;
 	text-align: center;
@@ -323,9 +323,8 @@ Home Slider
 }
 
 #home-slider .slide-content {
-	font-size: 42px;
+	font-size: 32px;
 	color: #fff;
-	letter-spacing: -3px;
 	text-transform: uppercase;
 	text-shadow:0px 0px 4px #fff;
 }
@@ -480,7 +479,7 @@ header .sticky-nav {
 	background: #006075;
 	z-index: 1001;
 	opacity : 100%;
-	
+
 
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -658,14 +657,19 @@ Section Page
 }
 
 .title-h2 {
-	color: #006075;margin-bottom: 0px;
-	line-height: 34px;
+	color: #006075;
+  margin-bottom: 0px;
+  line-height: 34px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 .title-h3 {
-	color: #0066a0c2;
-	margin: 0px;
-	line-height: 30px;
-	font-size: 22px;
+	color: #046e86;
+  margin: 0px;
+  line-height: 30px;
+  font-size: 22px;
+  text-transform: lowercase;
+  font-size: 20px;
 }
 
 /* ==================================================
@@ -2431,14 +2435,15 @@ Icons Example
 
 	}
 
-	.light-green { padding:6px 10px; background:#00c73d;  }
-	.orange { padding:6px 10px; background:#ffae00;  }
-	.red { padding:6px 10px; background:#dd0000;  }
-	.grey { padding:6px 10px; background:#0087dd;  }
-	.sky_blue { padding:6px 10px; background:#00c9c7;  }
-	.yellow { padding:6px 10px; background:#d2c100;  }
-	.color1 {padding:6px 10px; background:#bc04be;  }
-	.color2 {padding:6px 10px; background:#006424;  }
+	.light-green { padding:6px 10px; background:#4a9a62cf;  }
+	.orange { padding:6px 10px; background:#ffae00b3;  }
+	.red { padding:6px 10px; background:#b50606b5;  }
+	.green { padding:6px 10px; background:#2d9004b8;  }
+	.grey { padding:6px 10px; background:#0087ddba;  }
+	.sky_blue { padding:6px 10px; background:#00c9c7b8;  }
+	.yellow { padding:6px 10px; background:#d2c100b8;  }
+	.color1 {padding:6px 10px; background:#bc04bea8;  }
+	.color2 {padding:6px 10px; background:#006424ab;  }
 	.price_table { color:#fff; background:#23252b; padding:15px; }
 	.design_title {background:rgba(0,0,0,0.6);padding:10px; margin-bottom:20px; text-align:center; }
 	.price_submit {padding:3px 10px; }
@@ -2613,9 +2618,10 @@ Icons Example
 
 	.work-culture td {
 		width:20%;
-		height:200px
+		height:200px;
+		padding: 5px;
 	}
-	
+
 
 	.bg-color-1 {
 		background: rgba(255,192,0,.66) ;
@@ -2623,9 +2629,9 @@ Icons Example
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 0px 2px 2px #2F528F;
-		
-		
+		box-shadow: 0px 0px 2px 2px rgba(255,192,0.66);
+
+
 	}
 	.bg-color-2 {
 		background: rgba(35,19,245,0.66);
@@ -2634,7 +2640,7 @@ Icons Example
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 0px 2px 2px #2F528F;
+		box-shadow: 0px 0px 2px 2px rgba(35,19,245,0.66);
 	}
 	.bg-color-3 {
 		background: rgba(0,176,80,.72);
@@ -2643,7 +2649,7 @@ Icons Example
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 0px 2px 2px #2F528F;
+		box-shadow: 0px 0px 2px 2px rgba(0,176,80,.72);
 
 	}
 	.bg-color-4 {
@@ -2653,7 +2659,7 @@ Icons Example
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 0px 2px 2px #2F528F;
+		box-shadow: 0px 0px 2px 2px rgba(224,16,31,.66);
 		color: yellow;
 
 	}
@@ -2664,9 +2670,9 @@ Icons Example
 		color: #444242;
 		padding: 10px;
 		text-align: center;
-		box-shadow: 0px 0px 2px 2px #2F528F;
+		box-shadow: 0px 0px 2px 2px rgba(0,32,96,.72);
 		color: rgb(255,255,0);
-		
+
 
 	}
 	.page-alt {
@@ -2686,15 +2692,22 @@ Icons Example
 	}
 
 .content-slide-text span {
-	display: block !important;
-	font-size: 20px;
-	font-weight: 600;
-	color: #05bbff;
-	text-align: center;
+
 }
 .content-slide-text {
 	background: #00000073 !important;
 	height: 250px;
 	width:25%;
 	text-align: center;
+	display: block;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fafafa;
+	text-align: center;
+}
+.slide-title {
+	display: block !important;
+  font-size: 24px;
+  color: #55e0ff;
+  margin: 10px 0px;
 }
