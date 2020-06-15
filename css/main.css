@@ -200,7 +200,9 @@ h6{
 	background-color:black;
 }
 .caption {
-	color:red;
+	color: #078000;
+  font-weight: 600;
+  text-transform: initial;
 }
 
 h1{
@@ -804,6 +806,8 @@ About Section
 
 .image-wrap img {
 	width: 100%;
+	background: #d0d0d0;
+	height: 200px
 }
 
 .image-wrap  .hover-wrap {
@@ -2608,8 +2612,10 @@ Icons Example
 	}
 	.work-culture h4 {
 		text-transform: uppercase;
-		margin-bottom: 10px;
-		color: #fff;
+    margin-bottom: 10px;
+    color: #fff;
+    border-top: 5px solid #ffffff;
+    border-radius: 25px;
 	}
 
 	.work-culture p {
