@@ -636,7 +636,7 @@ Section Page
 
 .page-alternate {
 	background: #eaeaea;
-	padding: 0px 0px 25px 0;
+	padding: 30px 0px 25px 0;
 	position: relative;
 	z-index: 99;
 }
@@ -2623,9 +2623,9 @@ Icons Example
 	}
 
 	.work-culture td {
-		width:20%;
 		height:200px;
 		padding: 5px;
+		width:20%;
 	}
 
 
@@ -2696,6 +2696,9 @@ Icons Example
 	.pt-0 {
 		padding-top:0px !important;
 	}
+	.pt-30 {
+		padding-top:30px !important;
+	}
 
 .content-slide-text span {
 
@@ -2703,7 +2706,6 @@ Icons Example
 .content-slide-text {
 	background: #00000073 !important;
 	height: 250px;
-	width:25%;
 	text-align: center;
 	display: block;
 	font-size: 16px;
@@ -2716,4 +2718,87 @@ Icons Example
   font-size: 24px;
   color: #55e0ff;
   margin: 10px 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	#home-slider {
+	  height: 45%;
+	}
+	.slide-title {
+		font-size: 18px !important;
+	}
+	#home-slider p {
+		font-size: 15px !important;
+	}
+	.content-slide-text {
+		width:45%;
+		height: 100% !important;
+	}
+	.display-mobile {
+			display: block;
+	}
+	.display-desktop {
+			display: none;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.slide-title {
+		font-size: 18px !important;
+	}
+	#home-slider p {
+		font-size: 15px !important;
+	}
+	.content-slide-text {
+		width:45%;
+		height: 100% !important;
+	}
+	.display-mobile {
+			display: block;
+	}
+	.display-desktop {
+			display: none;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.content-slide-text {
+		width:25%;
+
+	}
+	.display-mobile {
+			display: none;
+	}
+	.display-desktop {
+			display: block;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.content-slide-text {
+		width:25%;
+	}
+	.display-mobile {
+			display: none;
+	}
+	.display-desktop {
+			display: block;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.content-slide-text {
+		width:25%;
+	}
+	.display-mobile {
+			display: none;
+	}
+	.display-desktop {
+			display: block;
+	}
 }

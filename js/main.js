@@ -187,17 +187,30 @@ BRUSHED.contactForm = function(){
 /* ==================================================
    Menu Highlight
 ================================================== */
-
+// $('#menu-nav, #menu-nav-mobile').onePageNav({
 BRUSHED.menu = function(){
-	$('#menu-nav, #menu-nav-mobile').onePageNav({
-		currentClass: 'current',
-    	changeHash: false,
-    	scrollSpeed: 250,
-    	scrollOffset: 10,
-    	scrollThreshold: 0.2,
-		easing: 'easeOutExpo',
-		filter: ':not(.external)'
-	});
+	var windowWidth = $(window).width();
+
+	if( windowWidth >= 979 ) {
+		$('#menu-nav-mobile').onePageNav({
+				currentClass: 'current',
+				changeHash: false,
+	    	scrollSpeed: 1000,
+	    	scrollOffset: 10,
+	    	scrollThreshold: 0.2,
+		});
+	}
+	else {
+		$('#menu-nav').onePageNav({
+			currentClass: 'current',
+				changeHash: false,
+				scrollSpeed: 1000,
+				scrollOffset: 10,
+				scrollThreshold: 0.2,
+				easing: 'easeOutExpo',
+				filter: ':not(.external)'
+		});
+	}
 }
 
 /* ==================================================
