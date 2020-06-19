@@ -498,19 +498,15 @@ header .sticky-nav.stuck {
 header #logo {
 	color: #FFFFFF;
 	float: left;
-	padding: 15px 0;
+	padding: 2px 0;
 	margin-left: 20px;
 }
 
-header #logo a {
-	background: url(../img/logo.png) no-repeat;
-	width: 180px;
-	height: 30px;
-	text-indent: -9999px;
+header #logo a {	width: 180px;
+	height: 55px;
 	display: block;
 	opacity: 1;
 	filter: alpha(opacity=100);
-
 	-webkit-transition: opacity 0.25s ease-in-out 0s;
 	-moz-transition: opacity 0.25s ease-in-out 0s;
 	-o-transition: opacity 0.25s ease-in-out 0s;
