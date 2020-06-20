@@ -2798,3 +2798,6 @@ Icons Example
 			display: block;
 	}
 }
+.form-all {
+	width : 100% !important
+}
