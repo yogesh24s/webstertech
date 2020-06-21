@@ -492,28 +492,40 @@ header .sticky-nav {
 }
 
 .trapezoid {
-	border-top: 40px solid white;
+	border-top: 40px solid #F2F2F2;
 	border-left: 0px solid transparent;
 	border-right: 25px solid transparent;
 	height: 0;
-	width: 625px;
+	width: 550px;
+	
 
 }
 .rectangle2 {
 
   height: 10px;
   width: 100%;
-  background-color: white;
+  background-color: #F2F2F2;
 }
+
 
 .titlename {
 	position:absolute;
-	padding-top:10px;
+	padding-top:5px;
 	padding-left : 180px !important;
 	color : #039BD2;
-	font-family : 'Sofia';
+	font-family : 'Arabic Typesetting';
 	font-size : 30px;
 }
+
+.caption {
+	position:absolute;
+	padding-top:25px;
+	padding-left : 350px !important;
+	color : #449448;
+	font-family : 'Arabic Typesetting';
+	font-size : 13px;
+}
+
 
 header .sticky-nav.stuck {
 	position: fixed;
@@ -2911,4 +2923,13 @@ Icons Example
 	.display-desktop {
 			display: block;
 	}
+}
+
+#logofulload_new {
+display:block;
+position:absolute;
+z-index:9999;
+}
+#logofulload {
+display:none;
 }
