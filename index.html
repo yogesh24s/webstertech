@@ -44,8 +44,8 @@
 		<div id="logo">
 				<a id="goUp" href="#home-slider"><img src="img/logo.png" width="70%"/>  </a>
 		</div>
-				<p class="titlename display-desktop"> <I> WebsterTech Services </I></p>
-		<p class="caption display-desktop"> Your  <I> Wayfinder  </I> in Digital World </p>
+				<p class="titlename display-desktop">  WebsterTech Services </p>
+		<p class="caption display-desktop"> Your Wayfinder in Digital World </p>
 
 <!-- <img class="titlename" src="img/logo_ba.png" /> -->
 		</div>
@@ -173,7 +173,7 @@
 
 					<p style="text-align:justify">WebsterTech Services is a innovative web development company started and run by a team of young and aspiring minds with the zeal to prove thier innovative solutions and capability to the world with guaranteed customer satisfaction and experience. The company aims at providing the best websites for clients with respect to visualization and coding. We believe in constant enhancement with regular customer interactions. At WebsterTech Services, we use the latest technologies in open source to eliminate hidden charges for our clients. We offer you the best price along with best service. Quality is one of many features that we just don’t compromise.</p>
 
-					<div class="caption"><p> We love what we do and we do what our clients love. </p></div>
+					<div><p class="fw-600"> We love what we do and we do what our clients love. </p></div>
 				</div>
 				<div class="span4 column">
 					<img src="img/profile/business-intelli.png" width="100%" />
@@ -736,14 +736,12 @@ hidden="">
 				<div class="contact-details">
 					<h3> Contact Details </h3>
 					<ul>
-						<li><a href="#">yogesh24.ds@gmail.com <br> write2rake@gmail.com</a></li>
-						<li>9611570580 <br> 9535964172</li>
+						<li><a href="#"> info@webstertechservices.in </a></li>
+						<li> 9916725374 </li>
 						<li>
 							WebsterTech Services
 							<br>
-							Address 1
-							<br>
-							Address 2
+							Bangalore
 						</li>
 					</ul>
 				</div>
@@ -780,98 +778,69 @@ hidden="">
 <script src="js/main.js"></script> <!-- Default JS -->
 <script src="js/accordion.js"></script> <!-- Default JS -->
 
-<!--<script>
-	var step1 = $( "#step1" );
-	var step2 = $( "#step2" );
-	var step3 = $( "#step3" );
-	var step4 = $( "#step4" );
-	var step5 = $( "#step5" );
-
-	async function runIt() {
-		await step1.hide().show(5000).hide(6000);
-		await step2.hide().show(9000 ).hide(10000);
-		await step3.hide().show(16000).hide(17000);
-		await step4.hide().show(20000).hide(20000);
-		await step5.hide().show(26000)
-	}
-
-	function showIt() {
-	  setTimeout( showIt, 1000 );
-	}
-
-	runIt();
-	showIt();
-</script>
--->
 <script>
-function temp_hoverin_1() {
-document.getElementById("step1").src = "img/workflow/Brainstorming.gif";
-}
+		$(document).ready(function(){
+				$('.formFooter').css('display', 'none');
+		});
+		function temp_hoverin_1() {
+			document.getElementById("step1").src = "img/workflow/Brainstorming.gif";
+		}
 
-function temp_hoverout_1() {
-document.getElementById("step1").src = "img/workflow/Brainstorming.png";
-}
+		function temp_hoverout_1() {
+			document.getElementById("step1").src = "img/workflow/Brainstorming.png";
+		}
 
-function temp_hoverin_2() {
-document.getElementById("step2").src = " img/workflow/design_noborder.gif";
-}
+		function temp_hoverin_2() {
+			document.getElementById("step2").src = " img/workflow/design_noborder.gif";
+		}
 
-function temp_hoverout_2() {
-document.getElementById("step2").src = " img/workflow/Web_Desing_NoBorder.JPG";
-}
-function temp_hoverin_3() {
-document.getElementById("step3").src = " img/workflow/development_1.gif";
-}
+		function temp_hoverout_2() {
+			document.getElementById("step2").src = " img/workflow/Web_Desing_NoBorder.JPG";
+		}
+		function temp_hoverin_3() {
+			document.getElementById("step3").src = " img/workflow/development_1.gif";
+		}
 
-function temp_hoverout_3() {
-document.getElementById("step3").src = " img/workflow/development_1.JPG";
-}
-function temp_hoverin_4() {
-document.getElementById("step4").src = " img/workflow/testy.gif";
-}
+		function temp_hoverout_3() {
+			document.getElementById("step3").src = " img/workflow/development_1.JPG";
+		}
+		function temp_hoverin_4() {
+			document.getElementById("step4").src = " img/workflow/testy.gif";
+		}
 
-function temp_hoverout_4() {
-document.getElementById("step4").src = " img/workflow/Testing.png";
-}
+		function temp_hoverout_4() {
+			document.getElementById("step4").src = " img/workflow/Testing.png";
+		}
 
-function temp_hoverin_5() {
-document.getElementById("step5").src = " img/workflow/delivery.gif";
-}
+		function temp_hoverin_5() {
+			document.getElementById("step5").src = " img/workflow/delivery.gif";
+		}
 
-function temp_hoverout_5() {
-document.getElementById("step5").src = " img/workflow/delivery.png";
-}
+		function temp_hoverout_5() {
+			document.getElementById("step5").src = " img/workflow/delivery.png";
+		}
 
+		function myFunction() {
+		  var temp = document.getElementById("logofulload");
+		  temp.id = "logofulload_new";
+		  setTimeout(updateID, 1500);
+		}
 
-function myFunction() {
-  var temp = document.getElementById("logofulload");
-  temp.id = "logofulload_new";
-  setTimeout(updateID, 1500);
-}
-
-function updateID() {
-
-var op;
-op=document.getElementById("logofulload_new");
-/*op.style.opacity="0.5" */
-setTimeout(function(){ op.style.opacity="0.9" }, 100);
-setTimeout(function(){ op.style.opacity="0.8" }, 200);
- setTimeout(function(){ op.style.opacity="0.7" }, 300);
- setTimeout(function(){ op.style.opacity="0.6" }, 400);
- setTimeout(function(){ op.style.opacity="0.5" }, 500);
- setTimeout(function(){ op.style.opacity="0.4" }, 600);
- setTimeout(function(){ op.style.opacity="0.3" }, 700);
- setTimeout(function(){ op.style.opacity="0.2" }, 800);
- setTimeout(function(){ op.style.opacity="0.1" }, 900);
- setTimeout(function(){ op.id="logofulload" }, 1000);
-}
-
-</script>
-
-
-$(document).ready(function(){
-    $('.formFooter').css('display', 'none');
-});
+		function updateID() {
+			var op;
+			op=document.getElementById("logofulload_new");
+			/*op.style.opacity="0.5" */
+			setTimeout(function(){ op.style.opacity="0.9" }, 100);
+			setTimeout(function(){ op.style.opacity="0.8" }, 200);
+			 setTimeout(function(){ op.style.opacity="0.7" }, 300);
+			 setTimeout(function(){ op.style.opacity="0.6" }, 400);
+			 setTimeout(function(){ op.style.opacity="0.5" }, 500);
+			 setTimeout(function(){ op.style.opacity="0.4" }, 600);
+			 setTimeout(function(){ op.style.opacity="0.3" }, 700);
+			 setTimeout(function(){ op.style.opacity="0.2" }, 800);
+			 setTimeout(function(){ op.style.opacity="0.1" }, 900);
+			 setTimeout(function(){ op.id="logofulload" }, 1000);
+		}
 </script>
 <!-- End Js -->
 </body>

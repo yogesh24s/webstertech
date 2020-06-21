@@ -497,7 +497,7 @@ header .sticky-nav {
 	border-right: 25px solid transparent;
 	height: 0;
 	width: 550px;
-	
+
 
 }
 .rectangle2 {
@@ -513,17 +513,17 @@ header .sticky-nav {
 	padding-top:5px;
 	padding-left : 180px !important;
 	color : #039BD2;
-	font-family : 'Arabic Typesetting';
-	font-size : 30px;
+	font-family : 'Titillium Web', sans-serif;
+	font-size: 24px
 }
 
 .caption {
-	position:absolute;
-	padding-top:25px;
-	padding-left : 350px !important;
-	color : #449448;
-	font-family : 'Arabic Typesetting';
-	font-size : 13px;
+	position: absolute;
+  padding-top: 25px;
+  padding-left: 317px !important;
+  color: #449448;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
 }
 
 
@@ -954,6 +954,7 @@ Contact Section
 	margin-bottom: 30px;
 	line-height: 1em;
 	text-transform: uppercase;
+	text-align: left;
 }
 
 .contact-details ul {
