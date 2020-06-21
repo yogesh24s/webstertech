@@ -612,7 +612,7 @@ hidden="">
       style="
       min-width: 100%;
       height:539px;
-      border:none;"
+      border:none"
       scrolling="no"
     >
     </iframe>
@@ -676,33 +676,11 @@ hidden="">
         window.attachEvent("onmessage", handleIFrameMessage);
       }
       </script>
-				<!-- <form id="contact-form" class="contact-form" action="#">
-					<p class="contact-name">
-						<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
-					</p>
-					<p class="contact-number">
-						<input id="contact_number" type="text" placeholder="Number" value="" name="number" />
-					</p>
-					<p class="contact-email">
-						<input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
-					</p>
-					<p class="contact-message">
-						<textarea id="contact_message" placeholder="Your Message" name="message" rows="15" cols="40"></textarea>
-					</p>
-					<p class="contact-submit">
-						<a id="contact-submit" class="submit" href="#">Send Your Email</a>
-					</p>
-
-					<div id="response">
-
-					</div>
-				</form> -->
-
 			</div>
 
 			<div class="span3">
 				<div class="contact-details">
-					<h3>Contact Details</h3>
+					<h3> Contact Details </h3>
 					<ul>
 						<li><a href="#">yogesh24.ds@gmail.com <br> write2rake@gmail.com</a></li>
 						<li>9611570580 <br> 9535964172</li>
@@ -809,9 +787,11 @@ document.getElementById("step5").src = " img/workflow/delivery.gif";
 function temp_hoverout_5() {
 document.getElementById("step5").src = " img/workflow/delivery.png";
 }
+
+$(document).ready(function(){
+    $('.formFooter').css('display', 'none');
+});
 </script>
-
-
 <!-- End Js -->
 </body>
 </html>
