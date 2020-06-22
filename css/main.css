@@ -537,9 +537,8 @@ header .sticky-nav.stuck {
 header #logo {
 	color: #FFFFFF;
 	float: left;
-	padding: 2px 0;
+	padding: 0px;
 	margin-left: 20px;
-	width:180px;
 }
 
 header #logo a {
@@ -1121,6 +1120,7 @@ Social Area
 	height: 70px;
 	text-align: center;
 	background: #dcdcdc;
+	border-radius: 4px;
 	-webkit-transition: all 400ms ease-out 0s;
 	-moz-transition: all 400ms ease-out 0s;
 	-o-transition: all 400ms ease-out 0s;
@@ -2845,6 +2845,12 @@ Icons Example
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	header #logo {
+	    width: 86%;
+	}
+	header #logo a {
+		height : 37px !important;
+	}
 	#home-slider {
 	  height: 45%;
 	}
@@ -2868,6 +2874,12 @@ Icons Example
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+	header #logo {
+	    width: 86%;
+	}
+	header #logo a {
+		height : 37px !important;
+	}
 	.slide-title {
 		font-size: 18px !important;
 	}
@@ -2888,6 +2900,12 @@ Icons Example
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+	header #logo a {
+		height : 37px !important;
+	}
+	header #logo {
+	    width: 55%;
+	}
 	.content-slide-text {
 		width:25%;
 
@@ -2902,6 +2920,9 @@ Icons Example
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+	header #logo {
+	    width:auto !important;
+	}
 	.content-slide-text {
 		width:25%;
 	}
