@@ -2845,6 +2845,11 @@ Icons Example
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	ul#supersized li a img {
+		width:100% !important;
+		height : 350px !important;
+		top : 0px !important;
+	}
 	header #logo {
 	    width: 86%;
 	}
@@ -2874,6 +2879,7 @@ Icons Example
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
 	header #logo {
 	    width: 86%;
 	}
@@ -2900,6 +2906,7 @@ Icons Example
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
 	header #logo a {
 		height : 37px !important;
 	}
@@ -2920,6 +2927,7 @@ Icons Example
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
 	header #logo {
 	    width:auto !important;
 	}
