@@ -42,7 +42,7 @@
 		<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
 		<div id="titlename">
 		<div id="logo">
-				<a id="goUp" href="#home-slider"><img src="img/logo_title.png" width="88%"/>  </a>
+				<a id="goUp" href="#home-slider"><img src="img/logo_title.png" width="86%"/>  </a>
 		</div>
 
 <!-- <img class="titlename" src="img/logo_ba.png" /> -->
@@ -252,7 +252,7 @@
 				hidden="">
 				<div class="accordion-inner">
 					<center><I><font class="fw-600 title-blue">"Technology meets Innovation".</font></I><br></center>
-					At WebsterTech Services we believe in smart and intense coding. The websites are developed without compromising the quality and as per the agreed UX designs.	We use technologies such as Bootstrap, MySql, JavaScript, React etc to develop websites. Websites are hosted only after client's approval with 100% satisfaction regarding site development.We provide constant support and also enhancements to our customers to maintain their business websites.
+					At WebsterTech Services we believe in smart and intense coding. The websites are developed without compromising the quality and as per the agreed UX designs.	We use technologies such as Bootstrap, MySql, JavaScript, React etc to develop websites. Websites are hosted only after client's approval with 100% satisfaction regarding site development. We provide constant support and also enhancements to our customers to maintain their business websites.
 					<section class="block-section">
 						<ul>
 
@@ -453,22 +453,24 @@ hidden="">
 	      <h4 class="center"> Brainstorming </h4>
 	      <p> With our expertise, We provide creative and innovative solutions for Client Requirements </p>
 	    </div>
+		<div class="bg-color-4 span12">
+				<h4 class="center"> Design </h4>
+				<p>Make the client experience the requirement taking shape. Design enables the Client to see how the requirement is met through our innovative and creative ideas. </p>
+		</div>
 	    <div class="bg-color-2 span12">
 	      <h4 class="center"> Development </h4>
 	      <p> Bring the design to life. Our team of developers make sure every single requirement has been rendered through coding to meet the design. </p>
 	    </div>
+		<div class="bg-color-5 span12">
+				<h4 class="center"> Testing </h4>
+				<p> Our team of well experienced testers make sure every bit of the website functions the way it is suppose to. </p>
+		</div>
 	    <div class="bg-color-3 span12">
 	      <h4 class="center"> Delivery </h4>
 	      <p> We launch websites on-time with amazing results and guaranteed customer satisfaction. </p>
 	    </div>
-			<div class="bg-color-4 span12">
-				<h4 class="center"> Design </h4>
-				<p>Make the client experience the requirement taking shape. Design enables the Client to see how the requirement is met through our innovative and creative ideas. </p>
-			</div>
-			<div class="bg-color-5 span12">
-				<h4 class="center"> Testing </h4>
-				<p> Our team of well experienced testers make sure every bit of the website functions the way it is suppose to. </p>
-			</div>
+			
+			
 	    </div>
 	</div>
 	<div class="display-desktop">
@@ -647,7 +649,7 @@ hidden="">
 				<div class="contact-details">
 					<h3> Contact Details </h3>
 					<ul>
-						<li><a href="#"> info@webstertechservices.in </a></li>
+						<li id ="mailcontact"> </li>
 						<li> 9916725374 </li>
 						<li>
 							WebsterTech Services
@@ -789,6 +791,18 @@ hidden="">
 		}
 
 		function myFunction() {
+		  var str=window.location.hostname;
+			var temp=str.toUpperCase()
+			var n = temp.search("WEBSTERTECHSERVICES.COM");
+			if ( n < 0) {
+				document.getElementById("mailcontact").innerHTML = 
+				"info@webstertechservices.in";
+			}
+			else {
+				document.getElementById("mailcontact").innerHTML = 
+				"info@webstertechservices.com";
+			}
+		  
 		  var temp = document.getElementById("logofulload");
 		  temp.id = "logofulload_new";
 		  setTimeout(updateID, 1500);
